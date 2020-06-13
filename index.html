@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>how i met your mother</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column active">
+            <div class="content">
+                <h1>1</h1>
+                <div class="box">
+                    <h2>Ted Mosby</h2>
+                    <p>“None of us can vow to be perfect. In the end all we can do is promise to love each other with everything we've got. Because love's the best thing we do.​​​​”</p>
+                </div>
+            </div>
+           <div class="bg bg1"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>2</h1>
+                <div class="box">
+                    <h2>Barney Stinson</h2>
+                    <p>"This is going to be legen... wait for it ...dary!"</p>
+                </div>
+            </div>
+           <div class="bg bg2"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>3</h1>
+                <div class="box">
+                    <h2>Robin Scherbatsky</h2>
+                    <p>"I don't know where I'm gonna be in five years. I don't wanna know. I want my life to be an adventure."</p>
+                </div>
+            </div>
+           <div class="bg bg3"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>4</h1>
+                <div class="box">
+                    <h2>Lily and Marshall</h2>
+                    <p>“We're Mr. and Mrs.Awesome.”</p>
+                </div>
+            </div>
+           <div class="bg bg4"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script> type="text/javascript">
+        $(document).on('mouseover','.container .column',function(){
+           $(this).addClass('active').siblings().removeClass('active')  
+        })
+    </script>
+</body>
+</html>
